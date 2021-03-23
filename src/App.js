@@ -51,7 +51,7 @@ const App = (props) => {
     <div className='app'>
       <Header />
       <Switch>
-        <Route exact path='/' render={() => (!isSignIn ? <Redirect from='*' to='/home' /> : null)} />
+        <Route exact path='/' render={() => (!isSignIn ? <Redirect from='*' to='/home' /> : <Redirect from='*' to='/main' />)} />
         <Route path='/home' component={Home} />
         <Route path='/main' component={Main} />
         <Route path='/category' component={Category} />
