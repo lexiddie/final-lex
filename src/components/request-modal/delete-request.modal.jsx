@@ -2,11 +2,11 @@ import React from 'react';
 import { Label, Button, Modal, ModalHeader, ModalFooter, Card, CardBody, FormGroup } from 'reactstrap';
 
 const DeleteModal = (props) => {
-  const { modal, toggle, deleteJournal, selectRecord, setSelectRecord } = props;
+  const { modal, toggle, deleteRequest, selectRecord, setSelectRecord } = props;
 
-  const startDeletingJournal = () => {
+  const startDeletingRequest = () => {
     if (selectRecord.id !== '') {
-      deleteJournal(selectRecord);
+      deleteRequest(selectRecord);
       setSelectRecord({});
       toggle();
     }
@@ -16,15 +16,15 @@ const DeleteModal = (props) => {
     <Modal className='modal-rounded' size='md' centered isOpen={modal} toggle={toggle}>
       <Card>
         <ModalHeader className='modal-header' toggle={toggle}>
-          Create Journal
+          Deleting Confirmation!
         </ModalHeader>
         <CardBody>
           <FormGroup>
-            <Label className='display-span'>Do you want to delete this journal?</Label>
+            <Label className='display-span'>Do you want to delete this request form?</Label>
           </FormGroup>
 
           <ModalFooter className='d-flex flex-wrap justify-content-between'>
-            <Button className='w-40x main-btn-caution' onClick={startDeletingJournal}>
+            <Button className='w-40x main-btn-caution' onClick={startDeletingRequest}>
               Confirm
             </Button>
             <Button className='w-40x' color='secondary' onClick={toggle}>
