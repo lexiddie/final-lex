@@ -35,6 +35,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 I was assigned to do this task, which is the request for form for reserve the parking lot. This web app page will be consisted of two pages. First, it will be a request form page for user to fill out the application before allowing to park. Second, the user wil be able to checkout in the tabular reports to view who are the customers during parking.
 
+I have completed all requirements under the final exam task😼.
+
 My name is SOKVATHARA LIN, I am a senior year student in Assumption University.
 And, this is the very last examination in my 4th year before graduation.
 
