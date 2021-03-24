@@ -17,9 +17,6 @@ const Header = (props) => {
           <NavLink className='option' to='/main'>
             Main
           </NavLink>
-          <NavLink className='option' to='/category'>
-            Category
-          </NavLink>
         </div>
       </div>
     </>

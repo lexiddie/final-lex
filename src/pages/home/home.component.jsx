@@ -12,7 +12,7 @@ const Home = (props) => {
     <div className='home'>
       <div>
         <div className='preview'>
-          <h2>Getting start to record your money now</h2>
+          <h2>Getting start to check your requests</h2>
           <CustomButton inverted onClick={signInWithGoogle}>
             Sign in with Google
           </CustomButton>
