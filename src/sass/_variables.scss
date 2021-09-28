@@ -1,0 +1,52 @@
+/*------------------------------------
+    Sass Variables
+------------------------------------*/
+
+//
+// Breakpoints
+//
+$g-2xs: 446px !default; // Double extra small devices (<=445px)
+// Extra small devices (portrait phones, <=575px)
+$g-sm: 576px !default; // Small devices (landscape phones, >=576 & <=767)
+$g-md: 768px !default; // Medium devices (tablets, >=768 & <=991)
+$g-lg: 992px !default; // Large devices (desktops, >=992 & <=1199)
+$g-xl: 1200px !default; // Extra large devices (large desktops, >=1200)
+
+//Pallets
+$primary: #2c304d;
+$secondary: #c2c2c2;
+$default: #744da9;
+
+$dark: #343a40;
+$black: #555555;
+$white-blur: #ffffff50;
+$black-smoke: #262626;
+$black_25: rgba(#20252b, 0.25);
+$black_50: rgba(#20252b, 0.5);
+$white: #ffffff;
+$white_25: rgba(255, 255, 255, 0.25);
+$white_40: rgba(255, 255, 255, 0.4);
+$white_50: rgba(255, 255, 255, 0.5);
+$white_80: rgba(255, 255, 255, 0.8);
+$white_90: rgba(255, 255, 255, 0.9);
+$white-light: #f9f9f9;
+$white-blight: #d2d2d2;
+$white-smoke: #e7eaec;
+$white-lighter: #f3f3f4;
+$red: #ff2800;
+$dark-red: #d50000;
+$green: #4caf50;
+$orange: #ff5722;
+
+$smoke: #c2c2c2;
+$shadow: rgba(52, 40, 104, 0.15);
+
+$info: #35a7ff;
+$success: #2ecc71;
+$warning: #ffa801;
+$danger: #ff5964;
+
+$gray: rgba(12, 12, 12, 0.12);
+$gray-dark: #999;
+
+$excel: #1f7244;

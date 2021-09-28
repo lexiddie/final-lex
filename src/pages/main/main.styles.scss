@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 100%;
+    width: 70%;
+
+    .preview {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      > h2 {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+      }
+
+      > button {
+        align-items: flex-start;
+        height: 50px;
+      }
+
+      > div:last-child {
+        height: 80%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.form-input {
+  padding-left: 10px;
+  background: none;
+  background-color: white;
+  color: grey;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid grey;
+  margin: 5px 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.next-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60px;
+}
+
+.select-category {
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
+  margin-right: 20px;
+
+  color: black;
+  height: 40px;
+  width: 200px;
+  text-align: left;
+  padding: 5px 35px 5px 35px;
+  background-color: #e7eaec;
+  border-radius: 10;
+  border: 1px solid black;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../assets/arrow_down.png') 94% / 3% no-repeat transparent;
+}
+
+.main-modal {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.display-user {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.display-span {
+  font-size: 20px;
+  font-weight: 400;
+}
